@@ -29,3 +29,4 @@ STATUS_UNKNOWN = "Status desconhecido"
 DATA_TO_EXCLUDE_IN_NON_NULL = ['nan', 'none', 'null']
 
 NO_CITY_MESSAGE = 'É necessário fornecer o nome de uma cidade!'
+NOTHING_FOUND_MESSAGE = "Nenhuma manutenção encontrada"

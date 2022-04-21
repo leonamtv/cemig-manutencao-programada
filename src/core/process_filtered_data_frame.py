@@ -7,6 +7,7 @@ from src.env.environment import COLUMN_FIM
 from src.env.environment import COLUMN_STA
 from src.env.environment import COLUMN_END
 from src.env.environment import STATUS_UNKNOWN
+from src.env.environment import NOTHING_FOUND_MESSAGE
 
 
 def process_df(df):
@@ -17,6 +18,8 @@ def process_df(df):
                    f"{LINE_BREAK}Endereços:{LINE_BREAK}{process_address(end)}{LINE_BREAK}"\
                    f"{LINE_BREAK}Status: {process_status(sta)}{LINE_BREAK}"\
                    f"{LINE_BREAK}{CONTENT_SEPARATOR}"
+    if content == '':
+        content = NOTHING_FOUND_MESSAGE
     return content
 
 
