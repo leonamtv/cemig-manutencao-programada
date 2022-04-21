@@ -1,0 +1,5 @@
+__pycache__
+.ipymb_checkpoints
+*.swp
+.idea
+*.xls
